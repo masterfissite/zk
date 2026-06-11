@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For those of you who are not married, to prevent things like this, if possible, try to board or rent your own place...😘 </title>
+
+<style>
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#000;
+    color:white;
+    font-family:Arial,sans-serif;
+    text-align:center;
+}
+
+.box{
+    width:90%;
+    max-width:350px;
+}
+
+.count{
+    font-size:70px;
+    color:#ff0033;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.cta-btn{
+    display:none;
+    padding:15px 35px;
+    border:none;
+    border-radius:50px;
+    background:#ff0033;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.note{
+    margin-top:15px;
+    color:#aaa;
+    font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<div class="count" id="count">5</div>
+
+<a href="https://masterfissite.github.io/q/?v=iSIL2VhP1.mp4"
+class="cta-btn"
+id="btn"
+target="_blank"
+rel="noopener noreferrer">
+🎥 WATCH VIDEO
+</a>
+
+<div class="note">
+Video may take a moment to load.
+</div>
+
+</div>
+
+<script>
+
+let time = 5;
+
+const count = document.getElementById("count");
+const btn = document.getElementById("btn");
+
+const timer = setInterval(() => {
+
+    time--;
+
+    count.innerHTML = time;
+
+    if(time <= 0){
+
+        clearInterval(timer);
+
+        count.style.display = "none";
+
+        btn.style.display = "inline-block";
+    }
+
+},1000);
+
+</script>
+
+<!-- Histats.com START -->
+<script type="text/javascript">
+var _Hasync = _Hasync || [];
+_Hasync.push(['Histats.start', '1,5021941,4,9,110,60,00011111']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+
+(function () {
+var hs = document.createElement('script');
+hs.type = 'text/javascript';
+hs.async = true;
+hs.src = "//s10.histats.com/js15_as.js";
+(document.head || document.body).appendChild(hs);
+})();
+</script>
+
+<noscript>
+<a href="/" target="_blank">
+<img src="//sstatic1.histats.com/0.gif?5007368&101"
+alt="counter"
+border="0">
+</a>
+</noscript>
+<!-- Histats.com END -->
+
+</body>
+</html>
